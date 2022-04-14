@@ -1891,6 +1891,14 @@ body.dark .loader_line:after{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
+
+
+.cls-2 {
+    fill: #fff !important;
+}
+
+
+
 .iknow_tm_portfolio .portfolio_list ul li .list_inner:hover .overlay{
 	opacity: 1;
 	visibility: visible;
@@ -2053,6 +2061,20 @@ body.dark .loader_line:after{
 	clear: both;
 	float: left;
 }
+
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* отображаем курсор в виде руки при наведении; некоторые
+  считают, что необходимо оставлять стрелочный вид для кнопок */
+  cursor: pointer;
+}
+
+
 .iknow_tm_modalbox .popup_details .top_image{
 	position: relative;
 	overflow: hidden;
@@ -2621,7 +2643,7 @@ body.dark .loader_line:after{
 	padding-top: 70px;
 }
 .iknow_tm_contact .wrapper .left{
-	width: 35%;
+	width: 45%;
 	padding-right: 40px;
 }
 .iknow_tm_contact .wrapper .left ul{
